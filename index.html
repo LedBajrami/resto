@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resto</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="main.js" defer></script>
+  <script src="assests/js/aboutus.carousel.js" defer></script>
+  <script src="assests/js/drink-carousel.js" defer></script>
+  <script src="assests/js/hero-section-slider.js" defer></script>
+  <script src="assests/js/menu-carousel.js" defer></script>
+  <script src="assests/js/responsive-header.js" defer></script>
+  <script src="assests/js/header-on-scroll.js" defer></script>
+  <script src="assests/js/menu-caroousel.js" defer></script>
+  <link rel="icon" href="img/logo.png" type="image/icon type" style="width: 1%;">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body id="my-scrollbar">
+
+
+
+  <header id="header">
+    <nav id="nav" class="row">
+      <img src="img/logo.png" alt="" class="logo-mobile">
+      <ul class="list-items">
+        <a href="#home"><li class="list-item">WELCOME</li></a>
+        <a href="#aboutus"><li class="list-item">ABOUT US</li></a>
+        <a href="#home"><img src="img/logo.png" alt="" class="logo-desktop"></a>
+        <a href="#contact"><li class="list-item">CONTACT</li></a>
+        <a href="#menu"><li class="list-item">MENU</li></a>
+      </ul>
+    </nav>
+    <div class="open-mobile-nav"><i class="fa-solid fa-bars" id="open-nav"></i></div>
+  </header>
+
+  <div class="navigation-mobile">
+    <ul class="list-items-mobile">
+      <a href="#home"><li class="list-item">WELCOME</li></a>
+      <a href="#aboutus"><li class="list-item">ABOUT US</li></a>
+      <a href="#home"><img src="img/logo.png" alt="" class="logo-desktop"></a>
+      <a href="#contact"><li class="list-item">CONTACT</li></a>
+      <a href="#menu"><li class="list-item">MENU</li></a>
+      <div class="close-mobile-nav"><i class="fa-solid fa-xmark" id="close-nav"></i></div>
+    </ul>
+  </div>
+
+  
+  <section class="home-page" id="home">
+    <div class="overlay"></div>
+    <div class="slideshow-container">
+
+     
+      <div class="mySlides fade fade1 zoom ">
+        <div class="text">HOME OF BRILLIANCE</div>
+      </div>
+    
+      <div class="mySlides fade fade2 zoom">
+        <div class="text">WARM AND COZY JUST LIKE HOME</div>
+      </div>
+    
+      <div class="mySlides fade fade3 zoom">
+        <div class="text">STORIES WORTH TELLING</div>
+      </div>
+    </div>
+  
+  </section>
+
+
+  <section id="aboutus">
+
+    <div class="row about-us-description container">
+      <h1 class="who-are-we-h h1 ">Who are we?</h1>
+      <p class="p about-us-p">Welcome to <i><strong>Resto Premium</strong></i>, where we are passionate about providing you with an exceptional dining experience. Our mission is to create a warm and inviting atmosphere where you can savor the flavors of our carefully crafted menu.</p>
+    </div>
+
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card">
+          <div class="img"><img src="img/whoareweImg1.jpg" alt="img" draggable="false"></div>
+        </li>
+        <li class="card">
+          <div class="img"><img src="img/whoareweImg2.jpg" alt="img" draggable="false"></div>
+        </li>
+        <li class="card">
+          <div class="img"><img src="img/whoareweImg3.jpg" alt="img" draggable="false"></div>
+        </li>
+        <li class="card">
+          <div class="img"><img src="img/whoareweImg4.jpg" alt="img" draggable="false"></div>
+        </li>
+        <li class="card">
+          <div class="img"><img src="img/whoareweImg5.jpg" alt="img" draggable="false"></div>
+        </li>
+        <li class="card">
+          <div class="img"><img src="img/whoareweImg6.jpg" alt="img" draggable="false"></div>
+        </li>
+        <li class="card">
+          <div class="img"><img src="img/whoareweImg7.jpg" alt="img" draggable="false"></div>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+  </section>
+
+
+  <section id="menu">
+    <div class="menu-description">
+      <h1 class="menu-h h1">Menu</h1>
+      <p class="menu-p p">Discover a culinary journey like no other at <i><strong>Resto Premium</strong></i>. Our menu is thoughtfully curated to delight your taste buds with a wide range of flavors and exquisite dishes.Start your dining experience with our enticing selection of appetizers. From fresh salads bursting with vibrant flavors to tantalizing small bites that awaken your palate, our appetizers are designed to whet your appetite and set the stage for an extraordinary meal.</p>
+    </div>
+
+    <div class="tab">
+      <div class="mobile-row">
+        <button class="tablinks" onclick="openCity(event, 'Appetizers')">Appetizers</button>
+        <button class="tablinks" onclick="openCity(event, 'Pasta')">Pasta</button>
+        <button class="tablinks" onclick="openCity(event, 'Pizza')">Pizza</button></div>
+      <div class="mobile-row">
+        <button class="tablinks" onclick="openCity(event, 'Salads')">Salads</button>
+        <button class="tablinks" onclick="openCity(event, 'Soups')">Soups</button>
+        <button class="tablinks" onclick="openCity(event, 'Desserts')">Desserts</button></div>
+    </div>
+    
+    <div id="Appetizers" class="tabcontent">
+      <div class="wrapper2 container">
+        <i id="left2" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel2 ">
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/appetizers/Appetizers-grilled-octupus.jpg" draggable="false"></div>
+            <h2 class="food-name">Grilled Octopus</h2>
+            <span class="food-price">22€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/appetizers/Appetizers-fried-shrimp.jpg" alt="Fried Shrimp" draggable="false"></div>
+            <h2 class="food-name">Fried Shrimp</h2>
+            <span class="food-price">17€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/appetizers/Appetizers-salmon-sushi.jpg" alt="Salmon & Sushi" draggable="false"></div>
+            <h2 class="food-name">Salmon & Sushi</h2>
+            <span class="food-price">18€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/appetizers/Appetizers-carrot-sushi.jpg" alt="Carrot Sushi" draggable="false"></div>
+            <h2 class="food-name">Carrot Sushi</h2>
+            <span class="food-price">10€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/appetizers/Appetizers-steak-fries.jpg" alt="Steak & Fries" draggable="false"></div>
+            <h2 class="food-name">Steak & Fries</h2>
+            <span class="food-price">11€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/appetizers/Appetizers-seafood-linguine.jpg" alt="seafood Linguine" draggable="false"></div>
+            <h2 class="food-name">Seafood Linguine</h2>
+            <span class="food-price">8€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/appetizers/Appetizers-asian-chicken-wings.jpg" alt="Asian Chicken Wings" draggable="false"></div>
+            <h2 class="food-name">Asian Chicken Wings</h2>
+            <span class="food-price">12€</span>
+          </li>
+        </ul>
+        <i id="right2" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+    
+    <div id="Pasta" class="tabcontent">
+      <div class="wrapper2 container">
+        <i id="left2" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel2">
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/pasta/pasta1.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Shredded Beff Ragu Pasta</h2>
+            <span class="food-price">11€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/pasta/pasta2.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Roasted Tomato Puttanesca</h2>
+            <span class="food-price">13€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/pasta/pasta3.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Penne Arrabbiata</h2>
+            <span class="food-price">9€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/pasta/pasta4.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Vegan Pasta</h2>
+            <span class="food-price">12€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/pasta/pasta5.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Creamy Spinach Pasta</h2>
+            <span class="food-price">14€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/pasta/pasta6.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Roasted Garlic Pasta</h2>
+            <span class="food-price">8€</span>
+          </li>
+        </ul>
+        <i id="right2" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+    
+    <div id="Pizza" class="tabcontent">
+      <div class="wrapper2 container">
+        <i id="left2" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel2">
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/pizza/pizza1.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">No-Yeast Pizza Dough</h2>
+            <span class="food-price">6€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/pizza/pizza2.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Margherita </h2>
+            <span class="food-price">5€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/pizza/pizza3.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Vegetarian</h2>
+            <span class="food-price">6€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/pizza/pizza4.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Prosciutto</h2>
+            <span class="food-price">8€</span>
+          </li>
+        </ul>
+        <i id="right2" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+
+    <div id="Salads" class="tabcontent">
+      <div class="wrapper2 container">
+        <i id="left2" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel2">
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/salads/salad1.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Grilled Chicken Salad</h2>
+            <span class="food-price">10€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/salads/salad2.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Ranch Chicken Salad</h2>
+            <span class="food-price">9€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/salads/salad3.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Italian Pasta Salad</h2>
+            <span class="food-price">11€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/salads/salad4.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Caprese Salad</h2>
+            <span class="food-price">13€</span>
+          </li>
+        </ul>
+        <i id="right2" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+    
+    <div id="Soups" class="tabcontent">
+      <div class="wrapper2 container">
+        <i id="left2" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel2">
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/soups/soup1.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Carrot Soup</h2>
+            <span class="food-price">6€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/soups/soup2.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Roasted Butternut Squash Soup</h2>
+            <span class="food-price">8€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/soups/soup3.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Squash Cream with Ginger</h2>
+            <span class="food-price">11€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/soups/soup4.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Creamy Potato Soup</h2>
+            <span class="food-price">7€</span>
+          </li>
+        </ul>
+        <i id="right2" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+    
+    <div id="Desserts" class="tabcontent">
+      <div class="wrapper2 container">
+        <i id="left2" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel2">
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/desserts/dessert1.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Hazelnut and Brown Butter Tart</h2>
+            <span class="food-price">4€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/desserts/dessert2.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Lavo Cannoli Recipe</h2>
+            <span class="food-price">6€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/desserts/dessert3.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Chocolate Delice with Peanut</h2>
+            <span class="food-price">5€</span>
+          </li>
+          <li class="card2">
+            <div class="img"><img src="img/menu/foods/desserts/dessert4.jpg" alt="img" draggable="false"></div>
+            <h2 class="food-name">Dark Chocolate Mousse Tartlet with Salted Caramel</h2>
+            <span class="food-price">5€</span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="drink-menu">
+    
+    
+      <div class="container row">
+
+        <div class="drinks-tab tab">
+          <button class="tablinks2 wine" onclick="openCity2(event, 'Wine')">Wine</button>
+          <button class="tablinks2" onclick="openCity2(event, 'Cocktails')">Cocktails</button>
+          <button class="tablinks2" onclick="openCity2(event, 'Beer')">Beer</button>
+        </div>
+      
+
+        <div id="Wine" class="tabcontent2">
+
+          <div class="slider">
+            <div class="slide_viewer">
+              <div class="slide_group">
+                <div class="slide">
+                  <img src="img/menu/drinks/wine1.jpg" alt="">
+                  <h2 class="food-name">Cabernet Sauvignon</h2>
+                  <span class="food-price">9€</span>
+                  <p class="ingridients">A full-bodied red wine with rich flavors of blackcurrant, blackberry, and dark chocolate. It pairs well with grilled meats, hearty stews, and aged cheeses.</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/wine2.jpg" alt="">
+                  <h2 class="food-name">Chardonnay </h2>
+                  <span class="food-price">6€</span>
+                  <p class="ingridients">A versatile white wine with flavors of apple, citrus, and vanilla. It pairs well with roasted chicken, seafood, and creamy pasta dishes.</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/wine3.jpg" alt="">
+                  <h2 class="food-name">Sauvignon Blanc </h2>
+                  <span class="food-price">7€</span>
+                  <p class="ingridients">A crisp and refreshing white wine with notes of tropical fruits, citrus, and herbs. It pairs well with salads, seafood, and goat cheese.</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/wine4.jpg" alt="">
+                  <h2 class="food-name">Pinot Noir</h2>
+                  <span class="food-price">6€</span>
+                  <p class="ingridients">A medium-bodied red wine with flavors of red berries, cherry, and earthy undertones. It pairs well with roasted poultry, grilled salmon, and mushroom dishes.</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/wine5.jpg" alt="">
+                  <h2 class="food-name">Prosecco</h2>
+                  <span class="food-price">5€</span>
+                  <p class="ingridients">A sparkling wine with bright acidity and flavors of green apple, pear, and floral notes. It is perfect for celebrations, brunches, and as an aperitif.</p>
+                </div>
+              </div>
+              <div class="previous_btn" title="Previous">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <div class="next_btn" title="Next">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="Cocktails" class="tabcontent2">
+
+          <div class="slider">
+            <div class="slide_viewer">
+              <div class="slide_group">
+                <div class="slide">
+                  <img src="img/menu/drinks/cocktail1.jpg" alt="">
+                  <h2 class="food-name">Mojito</h2>
+                  <span class="food-price">6€</span>
+                  <p class="ingridients">2 oz white rum, 1 oz lime juice, 2 tsp sugar, 6-8 fresh mint leaves, soda water</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/cocktail2.jpg" alt="">
+                  <h2 class="food-name">Cosmopolitan</h2>
+                  <span class="food-price">4€</span>
+                  <p class="ingridients">1.5 oz vodka, 1 oz cranberry juice, 0.5 oz lime juice, 0.5 oz triple sec</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/cocktail3.jpg" alt="">
+                  <h2 class="food-name">Pina Colada</h2>
+                  <span class="food-price">7€</span>
+                  <p class="ingridients"> 2 oz rum, 2 oz pineapple juice, 1.5 oz coconut cream, pineapple wedge (for garnish)</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/cocktail4.jpg" alt="">
+                  <h2 class="food-name">Espresso Martini</h2>
+                  <span class="food-price">6€</span>
+                  <p class="ingridients"> 1.5 oz vodka, 1 oz coffee liqueur, 1 oz fresh espresso, 0.5 oz simple syrup</p>
+                </div>
+              </div>
+              <div class="previous_btn" title="Previous">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <div class="next_btn" title="Next">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="Beer" class="tabcontent2">
+
+        <div class="slider">
+            <div class="slide_viewer">
+              <div class="slide_group">
+                <div class="slide">
+                  <img src="img/menu/drinks/beer1.jpg" alt="">
+                  <h2 class="food-name">India Pale Ale </h2>
+                  <span class="food-price">6€</span>
+                  <p class="ingridients">An assertively hoppy and bitter beer style with floral, citrusy, and piney flavors. It pairs well with spicy foods, grilled meats, and strong cheeses.</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/beer3.jpg" alt="">
+                  <h2 class="food-name">Stout</h2>
+                  <span class="food-price">3€</span>
+                  <p class="ingridients">A dark and rich beer with roasted malt flavors, notes of chocolate, coffee, and sometimes hints of sweetness. It pairs well with hearty dishes, chocolate desserts, and oysters.</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/beer2.jpg" alt="">
+                  <h2 class="food-name">Pilsner </h2>
+                  <span class="food-price">6€</span>
+                  <p class="ingridients">A light and crisp beer with a clean, refreshing taste, often characterized by a slightly hoppy and malty profile. It pairs well with salads, seafood, and lighter fare.</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/beer4.jpg" alt="">
+                  <h2 class="food-name">Wheat Beer </h2>
+                  <span class="food-price">5€</span>
+                  <p class="ingridients">A light and refreshing beer made with a high proportion of wheat, offering a slightly fruity and spicy flavor profile. It pairs well with seafood, salads, and fruity desserts</p>
+                </div>
+                <div class="slide">
+                  <img src="img/menu/drinks/beer5.jpg" alt="">
+                  <h2 class="food-name">Belgian Tripel </h2>
+                  <span class="food-price">7€</span>
+                  <p class="ingridients">A strong and complex beer with fruity esters, spicy phenols, and a slightly sweet finish. It pairs well with rich, creamy dishes, strong cheeses, and desserts.</p>
+                </div>
+              </div>
+              <div class="previous_btn" title="Previous">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <div class="next_btn" title="Next">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      
+
+    </div>
+   
+  </section>
+
+
+
+  <section id="contact">
+    <div class="container row">
+      <div class="contact-text-box fadeRight">
+        <h2 class="contact-form">CONTACT</h2>
+        <p>Thanks for visiting our website. If you have any questions, comments, or feedback, we would love to hear from you.</p>
+        <p>Please feel free to use the contact form below to reach out to us, and we will do our best to respond as soon as possible. You can also follow us on social media to stay up-to-date with our updates.</p>
+        <p>We look forward to hearing from you and thank you for your interest in our restaurant.</p>
+      </div>
+      <div class="contact-form fadeLeft">
+        <form action="mailto">
+          <h2>BOOK A TABLE</h2>
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Surname">
+          <input type="text" placeholder="Telephone">
+          <input type="email" placeholder="Email">
+          <input type="date" placeholder="01/06/2023"><br>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+   <!-- <script src="smooth-scrollbar.js"></script> -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+</html>
