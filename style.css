@@ -167,7 +167,7 @@ header.inverted #nav .list-items {
   height: 100vh;
 }
 
-/* .overlay {
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -175,7 +175,7 @@ header.inverted #nav .list-items {
   right: 0;
   background-color: rgba(0, 0, 0, 0.15);
   z-index: 1;
-} */
+}
 
 .fade {
   width: 100%;
