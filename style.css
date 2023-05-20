@@ -188,27 +188,15 @@ header.inverted #nav .list-items {
 
 .fade1 {
   background-image: url('img/scrn8.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 .fade2 {
   background-image: url('img/whoareweImg7.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 
 .fade3 {
-  background-image: url('img/scrn10.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-image: url('img/scrn2mobile.jpg');
 }
 
 /* .mySlides img {
@@ -243,13 +231,13 @@ header.inverted #nav .list-items {
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: .9}
   to {opacity: 1}
 }
 
 @keyframes zoom {
   from {scale: 1}
-  to {scale: 1.07}
+  to {scale: 1.06}
 }
 
 
