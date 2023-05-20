@@ -162,10 +162,6 @@ header.inverted #nav .list-items {
   display: none;
 }
 
-.mySlides {
-  width: 100%;
-  height: 100vh;
-}
 
 .overlay {
   position: absolute;
@@ -173,7 +169,7 @@ header.inverted #nav .list-items {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.35);
   z-index: 1;
 }
 
@@ -181,7 +177,6 @@ header.inverted #nav .list-items {
   width: 100%;
   height: 100vh;
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -624,7 +619,7 @@ header.inverted #nav .list-items {
 #contact {
   padding-block: 100px;
   font-family: var(--ff-1);
-  background-color: #36392e;
+  background-image: url('img/scrn8.webp');
 }
 
 #contact .row {
