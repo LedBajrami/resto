@@ -619,7 +619,7 @@ header.inverted #nav .list-items {
 #contact {
   padding-block: 100px;
   font-family: var(--ff-1);
-  background-image: url('img/scrn8.webp');
+  background-color: #36392e;
 }
 
 #contact .row {
