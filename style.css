@@ -194,14 +194,27 @@ header.inverted #nav .list-items {
 
 .fade1 {
   background-image: url('img/scrn5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .fade2 {
   background-image: url('img/scrn2mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
+
 
 .fade3 {
   background-image: url('img/scrn3mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /* .mySlides img {
@@ -435,6 +448,7 @@ header.inverted #nav .list-items {
   transition: 0.3s;
   font-family: var(--ff-1);
   font-weight: 500;
+  color: #36392e;
 }
 
 
@@ -456,6 +470,7 @@ header.inverted #nav .list-items {
 
 .menu-description {
   width: 100%;
+  max-width: 360px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -779,6 +794,11 @@ margin-top: 30px;
 .tab {
   flex-direction: row;
 }
+
+.menu-description {
+  max-width: 600px;
+}
+
 .row .drinks-tab {
   order: 2;
 }
