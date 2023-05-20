@@ -10,3 +10,9 @@ closeNav.addEventListener('click', () => {
   listItems.classList.remove('active')
   window.onscroll = false
 })
+
+const listItemClicked = Array.from(document.querySelectorAll('.list-item'))
+
+listItemClicked.forEach(item => item.addEventListener('click', ()=> {
+  listItems.classList.remove('active')
+}))
