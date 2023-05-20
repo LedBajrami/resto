@@ -29,6 +29,7 @@ body {
 .container {
   width: 90%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 img {
@@ -141,14 +142,7 @@ header.inverted #nav .list-items {
 
 
 
- #catalog {
-  background: url('img/scrn2.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  font-family: var(--ff-1);
-}
+
 
 
  /* HOME-PAGE SLIDESHOW */
@@ -193,7 +187,7 @@ header.inverted #nav .list-items {
 }
 
 .fade1 {
-  background-image: url('img/scrn5.jpg');
+  background-image: url('img/scrn8.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -201,7 +195,7 @@ header.inverted #nav .list-items {
 }
 
 .fade2 {
-  background-image: url('img/scrn2mobile.jpg');
+  background-image: url('img/whoareweImg7.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -210,7 +204,7 @@ header.inverted #nav .list-items {
 
 
 .fade3 {
-  background-image: url('img/scrn3mobile.jpg');
+  background-image: url('img/scrn10.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -501,15 +495,31 @@ header.inverted #nav .list-items {
   font-family: var(--ff-1);
   font-size: .95rem;
   margin-top: 10px;
+  max-width: 350px;
 }
 
 
 
 
 
+/*COSTUM SCROLLBAR*/
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 6px;
+  border-radius: 25px;
 }
+
+
+::-webkit-scrollbar-track {
+  background: #888f70; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #36392e; 
+}
+
+
+
 
 
 
@@ -799,9 +809,6 @@ margin-top: 30px;
   max-width: 600px;
 }
 
-.row .drinks-tab {
-  order: 2;
-}
 .drinks-tab {
   flex-direction: column;
 }
@@ -820,6 +827,17 @@ margin-top: 30px;
   top: 420px;
   left: 420px;
 }
+}
+
+@media (min-width: 1000px) {
+  .row2 {
+    display: flex;
+    align-self: center; 
+    justify-content: space-between;
+   }
+   .row2 .drinks-tab {
+    order: 2;
+  }
 }
 
 @media screen and (max-width: 900px) {
